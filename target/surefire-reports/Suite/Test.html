@@ -1,0 +1,163 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>6/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Feb 21 22:43:44 IST 2019</td>
+</tr>
+<tr><td>Total time:</td><td>366 seconds (366135 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.actitime.scripts.TaskTest.createNewCustomer()'><b>createNewCustomer</b><br>Test class: com.actitime.scripts.TaskTest<br>Test method: Create New  Customer<br/>
+<a href="#Output-504053874" onClick='toggleBox("Output-504053874", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-504053874" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-504053874">
+createNewCustomer script execution startsThu Feb 21 22:44:39 IST 2019<br/>
+Customer "GE HealthCare" has been successfully created.<br/>
+createNewCustomer script is passedThu Feb 21 22:46:48 IST 2019<br/>
+</div>
+</td>
+<td></td>
+<td>128</td>
+<td>com.actitime.scripts.TaskTest@60addb54</td></tr>
+<tr>
+<td title='com.actitime.scripts.TaskTest.createNewTask()'><b>createNewTask</b><br>Test class: com.actitime.scripts.TaskTest<br/>
+<a href="#Output-1658785779" onClick='toggleBox("Output-1658785779", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1658785779" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1658785779">
+createNewTask script execution startsThu Feb 21 22:47:41 IST 2019<br/>
+1 new task was added to the customer "GE HealthCare", project "Medical Software".<br/>
+createNewTask script is passedThu Feb 21 22:48:15 IST 2019<br/>
+</div>
+</td>
+<td></td>
+<td>34</td>
+<td>com.actitime.scripts.TaskTest@60addb54</td></tr>
+<tr>
+<td title='com.actitime.scripts.TaskTest.createproject()'><b>createproject</b><br>Test class: com.actitime.scripts.TaskTest<br/>
+<a href="#Output-418513504" onClick='toggleBox("Output-418513504", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-418513504" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-418513504">
+createproject script execution startsThu Feb 21 22:47:00 IST 2019<br/>
+Project "Medical Software" has been successfully created.<br/>
+createproject script is passedThu Feb 21 22:47:22 IST 2019<br/>
+</div>
+</td>
+<td></td>
+<td>22</td>
+<td>com.actitime.scripts.TaskTest@60addb54</td></tr>
+<tr>
+<td title='com.actitime.scripts.TaskTest.deleteProject()'><b>deleteProject</b><br>Test class: com.actitime.scripts.TaskTest<br/>
+<a href="#Output-1110148152" onClick='toggleBox("Output-1110148152", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1110148152" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1110148152">
+deleteProject script execution startsThu Feb 21 22:48:56 IST 2019<br/>
+Project has been successfully deleted.<br/>
+deleteProject script is passedThu Feb 21 22:49:17 IST 2019<br/>
+</div>
+</td>
+<td></td>
+<td>21</td>
+<td>com.actitime.scripts.TaskTest@60addb54</td></tr>
+<tr>
+<td title='com.actitime.scripts.TaskTest.deleteTask()'><b>deleteTask</b><br>Test class: com.actitime.scripts.TaskTest<br/>
+<a href="#Output-631717345" onClick='toggleBox("Output-631717345", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-631717345" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-631717345">
+deleteTask script execution startsThu Feb 21 22:48:28 IST 2019<br/>
+Task has been successfully deleted.<br/>
+deleteTask script is passedThu Feb 21 22:48:44 IST 2019<br/>
+</div>
+</td>
+<td></td>
+<td>15</td>
+<td>com.actitime.scripts.TaskTest@60addb54</td></tr>
+<tr>
+<td title='com.actitime.scripts.TaskTest.deletecustomer()'><b>deletecustomer</b><br>Test class: com.actitime.scripts.TaskTest<br/>
+<a href="#Output-131709548" onClick='toggleBox("Output-131709548", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-131709548" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-131709548">
+deletecustomer script execution startsThu Feb 21 22:49:29 IST 2019<br/>
+Customer has been successfully deleted.<br/>
+deletecustomer script is passedThu Feb 21 22:49:50 IST 2019<br/>
+</div>
+</td>
+<td></td>
+<td>21</td>
+<td>com.actitime.scripts.TaskTest@60addb54</td></tr>
+</table><p>
+</body>
+</html>

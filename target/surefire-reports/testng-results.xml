@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+    <line>
+      <![CDATA[Suite execution startsThu Feb 21 22:43:44 IST 2019]]>
+    </line>
+    <line>
+      <![CDATA[chrome browser launched]]>
+    </line>
+    <line>
+      <![CDATA[http://127.0.0.1/login.do url navigated]]>
+    </line>
+    <line>
+      <![CDATA[createNewCustomer script execution startsThu Feb 21 22:44:39 IST 2019]]>
+    </line>
+    <line>
+      <![CDATA[Customer "GE HealthCare" has been successfully created.]]>
+    </line>
+    <line>
+      <![CDATA[createNewCustomer script is passedThu Feb 21 22:46:48 IST 2019]]>
+    </line>
+    <line>
+      <![CDATA[ChromeDriverbrowser closed]]>
+    </line>
+    <line>
+      <![CDATA[chrome browser launched]]>
+    </line>
+    <line>
+      <![CDATA[http://127.0.0.1/login.do url navigated]]>
+    </line>
+    <line>
+      <![CDATA[createproject script execution startsThu Feb 21 22:47:00 IST 2019]]>
+    </line>
+    <line>
+      <![CDATA[Project "Medical Software" has been successfully created.]]>
+    </line>
+    <line>
+      <![CDATA[createproject script is passedThu Feb 21 22:47:22 IST 2019]]>
+    </line>
+    <line>
+      <![CDATA[ChromeDriverbrowser closed]]>
+    </line>
+    <line>
+      <![CDATA[chrome browser launched]]>
+    </line>
+    <line>
+      <![CDATA[http://127.0.0.1/login.do url navigated]]>
+    </line>
+    <line>
+      <![CDATA[createNewTask script execution startsThu Feb 21 22:47:41 IST 2019]]>
+    </line>
+    <line>
+      <![CDATA[1 new task was added to the customer "GE HealthCare", project "Medical Software".]]>
+    </line>
+    <line>
+      <![CDATA[createNewTask script is passedThu Feb 21 22:48:15 IST 2019]]>
+    </line>
+    <line>
+      <![CDATA[ChromeDriverbrowser closed]]>
+    </line>
+    <line>
+      <![CDATA[chrome browser launched]]>
+    </line>
+    <line>
+      <![CDATA[http://127.0.0.1/login.do url navigated]]>
+    </line>
+    <line>
+      <![CDATA[deleteTask script execution startsThu Feb 21 22:48:28 IST 2019]]>
+    </line>
+    <line>
+      <![CDATA[Task has been successfully deleted.]]>
+    </line>
+    <line>
+      <![CDATA[deleteTask script is passedThu Feb 21 22:48:44 IST 2019]]>
+    </line>
+    <line>
+      <![CDATA[ChromeDriverbrowser closed]]>
+    </line>
+    <line>
+      <![CDATA[chrome browser launched]]>
+    </line>
+    <line>
+      <![CDATA[http://127.0.0.1/login.do url navigated]]>
+    </line>
+    <line>
+      <![CDATA[deleteProject script execution startsThu Feb 21 22:48:56 IST 2019]]>
+    </line>
+    <line>
+      <![CDATA[Project has been successfully deleted.]]>
+    </line>
+    <line>
+      <![CDATA[deleteProject script is passedThu Feb 21 22:49:17 IST 2019]]>
+    </line>
+    <line>
+      <![CDATA[ChromeDriverbrowser closed]]>
+    </line>
+    <line>
+      <![CDATA[chrome browser launched]]>
+    </line>
+    <line>
+      <![CDATA[http://127.0.0.1/login.do url navigated]]>
+    </line>
+    <line>
+      <![CDATA[deletecustomer script execution startsThu Feb 21 22:49:29 IST 2019]]>
+    </line>
+    <line>
+      <![CDATA[Customer has been successfully deleted.]]>
+    </line>
+    <line>
+      <![CDATA[deletecustomer script is passedThu Feb 21 22:49:50 IST 2019]]>
+    </line>
+    <line>
+      <![CDATA[ChromeDriverbrowser closed]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="366135" started-at="2019-02-21T17:13:44Z" finished-at="2019-02-21T17:19:50Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="366135" started-at="2019-02-21T17:13:44Z" finished-at="2019-02-21T17:19:50Z">
+      <class name="com.actitime.scripts.TaskTest">
+        <test-method status="PASS" signature="preConditions(java.lang.String, java.lang.String)[pri:0, instance:com.actitime.scripts.TaskTest@60addb54]" name="preConditions" is-config="true" duration-ms="54211" started-at="2019-02-21T17:13:44Z" finished-at="2019-02-21T17:14:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://127.0.0.1/login.do]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[chrome browser launched]]>
+            </line>
+            <line>
+              <![CDATA[http://127.0.0.1/login.do url navigated]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- preConditions -->
+        <test-method status="PASS" signature="createNewCustomer()[pri:0, instance:com.actitime.scripts.TaskTest@60addb54]" name="createNewCustomer" duration-ms="128943" started-at="2019-02-21T17:14:39Z" description="Create New  Customer" finished-at="2019-02-21T17:16:48Z">
+          <reporter-output>
+            <line>
+              <![CDATA[createNewCustomer script execution startsThu Feb 21 22:44:39 IST 2019]]>
+            </line>
+            <line>
+              <![CDATA[Customer "GE HealthCare" has been successfully created.]]>
+            </line>
+            <line>
+              <![CDATA[createNewCustomer script is passedThu Feb 21 22:46:48 IST 2019]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createNewCustomer -->
+        <test-method status="PASS" signature="postconditions()[pri:0, instance:com.actitime.scripts.TaskTest@60addb54]" name="postconditions" is-config="true" duration-ms="1269" started-at="2019-02-21T17:16:48Z" finished-at="2019-02-21T17:16:49Z">
+          <reporter-output>
+            <line>
+              <![CDATA[ChromeDriverbrowser closed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- postconditions -->
+        <test-method status="PASS" signature="preConditions(java.lang.String, java.lang.String)[pri:0, instance:com.actitime.scripts.TaskTest@60addb54]" name="preConditions" is-config="true" duration-ms="10700" started-at="2019-02-21T17:16:49Z" finished-at="2019-02-21T17:17:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://127.0.0.1/login.do]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[chrome browser launched]]>
+            </line>
+            <line>
+              <![CDATA[http://127.0.0.1/login.do url navigated]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- preConditions -->
+        <test-method status="PASS" signature="createproject()[pri:0, instance:com.actitime.scripts.TaskTest@60addb54]" name="createproject" duration-ms="22873" started-at="2019-02-21T17:17:00Z" depends-on-methods="com.actitime.scripts.TaskTest.createNewCustomer" finished-at="2019-02-21T17:17:22Z">
+          <reporter-output>
+            <line>
+              <![CDATA[createproject script execution startsThu Feb 21 22:47:00 IST 2019]]>
+            </line>
+            <line>
+              <![CDATA[Project "Medical Software" has been successfully created.]]>
+            </line>
+            <line>
+              <![CDATA[createproject script is passedThu Feb 21 22:47:22 IST 2019]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createproject -->
+        <test-method status="PASS" signature="postconditions()[pri:0, instance:com.actitime.scripts.TaskTest@60addb54]" name="postconditions" is-config="true" duration-ms="6761" started-at="2019-02-21T17:17:22Z" finished-at="2019-02-21T17:17:29Z">
+          <reporter-output>
+            <line>
+              <![CDATA[ChromeDriverbrowser closed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- postconditions -->
+        <test-method status="PASS" signature="preConditions(java.lang.String, java.lang.String)[pri:0, instance:com.actitime.scripts.TaskTest@60addb54]" name="preConditions" is-config="true" duration-ms="11854" started-at="2019-02-21T17:17:29Z" finished-at="2019-02-21T17:17:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://127.0.0.1/login.do]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[chrome browser launched]]>
+            </line>
+            <line>
+              <![CDATA[http://127.0.0.1/login.do url navigated]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- preConditions -->
+        <test-method status="PASS" signature="createNewTask()[pri:0, instance:com.actitime.scripts.TaskTest@60addb54]" name="createNewTask" duration-ms="34141" started-at="2019-02-21T17:17:41Z" depends-on-methods="com.actitime.scripts.TaskTest.createproject" finished-at="2019-02-21T17:18:15Z">
+          <reporter-output>
+            <line>
+              <![CDATA[createNewTask script execution startsThu Feb 21 22:47:41 IST 2019]]>
+            </line>
+            <line>
+              <![CDATA[1 new task was added to the customer "GE HealthCare", project "Medical Software".]]>
+            </line>
+            <line>
+              <![CDATA[createNewTask script is passedThu Feb 21 22:48:15 IST 2019]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createNewTask -->
+        <test-method status="PASS" signature="postconditions()[pri:0, instance:com.actitime.scripts.TaskTest@60addb54]" name="postconditions" is-config="true" duration-ms="2706" started-at="2019-02-21T17:18:15Z" finished-at="2019-02-21T17:18:18Z">
+          <reporter-output>
+            <line>
+              <![CDATA[ChromeDriverbrowser closed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- postconditions -->
+        <test-method status="PASS" signature="preConditions(java.lang.String, java.lang.String)[pri:0, instance:com.actitime.scripts.TaskTest@60addb54]" name="preConditions" is-config="true" duration-ms="10169" started-at="2019-02-21T17:18:18Z" finished-at="2019-02-21T17:18:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://127.0.0.1/login.do]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[chrome browser launched]]>
+            </line>
+            <line>
+              <![CDATA[http://127.0.0.1/login.do url navigated]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- preConditions -->
+        <test-method status="PASS" signature="deleteTask()[pri:0, instance:com.actitime.scripts.TaskTest@60addb54]" name="deleteTask" duration-ms="15813" started-at="2019-02-21T17:18:28Z" depends-on-methods="com.actitime.scripts.TaskTest.createNewTask" finished-at="2019-02-21T17:18:44Z">
+          <reporter-output>
+            <line>
+              <![CDATA[deleteTask script execution startsThu Feb 21 22:48:28 IST 2019]]>
+            </line>
+            <line>
+              <![CDATA[Task has been successfully deleted.]]>
+            </line>
+            <line>
+              <![CDATA[deleteTask script is passedThu Feb 21 22:48:44 IST 2019]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- deleteTask -->
+        <test-method status="PASS" signature="postconditions()[pri:0, instance:com.actitime.scripts.TaskTest@60addb54]" name="postconditions" is-config="true" duration-ms="2724" started-at="2019-02-21T17:18:44Z" finished-at="2019-02-21T17:18:47Z">
+          <reporter-output>
+            <line>
+              <![CDATA[ChromeDriverbrowser closed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- postconditions -->
+        <test-method status="PASS" signature="preConditions(java.lang.String, java.lang.String)[pri:0, instance:com.actitime.scripts.TaskTest@60addb54]" name="preConditions" is-config="true" duration-ms="9152" started-at="2019-02-21T17:18:47Z" finished-at="2019-02-21T17:18:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://127.0.0.1/login.do]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[chrome browser launched]]>
+            </line>
+            <line>
+              <![CDATA[http://127.0.0.1/login.do url navigated]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- preConditions -->
+        <test-method status="PASS" signature="deleteProject()[pri:0, instance:com.actitime.scripts.TaskTest@60addb54]" name="deleteProject" duration-ms="21009" started-at="2019-02-21T17:18:56Z" depends-on-methods="com.actitime.scripts.TaskTest.deleteTask" finished-at="2019-02-21T17:19:17Z">
+          <reporter-output>
+            <line>
+              <![CDATA[deleteProject script execution startsThu Feb 21 22:48:56 IST 2019]]>
+            </line>
+            <line>
+              <![CDATA[Project has been successfully deleted.]]>
+            </line>
+            <line>
+              <![CDATA[deleteProject script is passedThu Feb 21 22:49:17 IST 2019]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- deleteProject -->
+        <test-method status="PASS" signature="postconditions()[pri:0, instance:com.actitime.scripts.TaskTest@60addb54]" name="postconditions" is-config="true" duration-ms="2475" started-at="2019-02-21T17:19:17Z" finished-at="2019-02-21T17:19:19Z">
+          <reporter-output>
+            <line>
+              <![CDATA[ChromeDriverbrowser closed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- postconditions -->
+        <test-method status="PASS" signature="preConditions(java.lang.String, java.lang.String)[pri:0, instance:com.actitime.scripts.TaskTest@60addb54]" name="preConditions" is-config="true" duration-ms="9306" started-at="2019-02-21T17:19:19Z" finished-at="2019-02-21T17:19:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://127.0.0.1/login.do]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[chrome browser launched]]>
+            </line>
+            <line>
+              <![CDATA[http://127.0.0.1/login.do url navigated]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- preConditions -->
+        <test-method status="PASS" signature="deletecustomer()[pri:0, instance:com.actitime.scripts.TaskTest@60addb54]" name="deletecustomer" duration-ms="21374" started-at="2019-02-21T17:19:29Z" depends-on-methods="com.actitime.scripts.TaskTest.deleteProject" finished-at="2019-02-21T17:19:50Z">
+          <reporter-output>
+            <line>
+              <![CDATA[deletecustomer script execution startsThu Feb 21 22:49:29 IST 2019]]>
+            </line>
+            <line>
+              <![CDATA[Customer has been successfully deleted.]]>
+            </line>
+            <line>
+              <![CDATA[deletecustomer script is passedThu Feb 21 22:49:50 IST 2019]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- deletecustomer -->
+        <test-method status="PASS" signature="postconditions()[pri:0, instance:com.actitime.scripts.TaskTest@60addb54]" name="postconditions" is-config="true" duration-ms="512" started-at="2019-02-21T17:19:50Z" finished-at="2019-02-21T17:19:50Z">
+          <reporter-output>
+            <line>
+              <![CDATA[ChromeDriverbrowser closed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- postconditions -->
+      </class> <!-- com.actitime.scripts.TaskTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

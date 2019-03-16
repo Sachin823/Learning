@@ -1,0 +1,5 @@
+com\actitime\scripts\UsersTest.class
+com\actitime\scripts\LoginTest.class
+com\actitime\scripts\DemoTest.class
+com\actitime\scripts\BaseTest.class
+com\actitime\scripts\TaskTest.class
